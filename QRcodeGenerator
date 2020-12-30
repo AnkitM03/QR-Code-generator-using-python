@@ -1,0 +1,12 @@
+import pyqrcode
+
+def qrcode():
+    qr=pyqrcode.create(input())
+    qr.png("QRcode.png", scale=6)
+    print("QR Generated")
+    
+    
+    
+if _name__ == "__main__":
+    qrcode()
+    
